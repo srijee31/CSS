@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Box Inside Box</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+        }
+
+        .big-box {
+            width: 400px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #3b3232;
+            border: 5px solid limegreen;
+            border-radius: 20px;
+        }
+
+        .small-box {
+            background-color: #2dcf35;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: limegreen;
+            text-align: center;
+        }
+
+        p {
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="big-box">
+        <h1><u>MAIN Box</u></h1>
+        <p>This is the big container box.</p>
+
+        <div class="small-box">
+            <p>This is the small box inside the big box.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

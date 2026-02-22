@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Box Model Practice</title>
+
+    <style>
+
+        /* Makes box model easier to control */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+        }
+
+        /* CARD CONTAINER */
+        .card {
+            background-color: #691a1a;
+            width: 400px;
+            height:250px;
+            padding: 50px;
+            margin: auto;
+            border: 10px solid rgb(75, 89, 75);
+            border-radius: 30px;
+        }
+
+        /* ID styling */
+        #main-title {
+            color: limegreen;
+            text-align: center;
+        }
+
+        /* CLASS styling */
+        .description {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background-color: limegreen;
+            color: black;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(170, 58, 231);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h2 id="main-title">CSS Practice Card</h2>
+
+        <p class="description">
+            This card helps you understand box model, class, and id clearly.
+        </p>
+
+        <button class="btn">Click Me</button>
+    </div>
+
+</body>
+</html>
