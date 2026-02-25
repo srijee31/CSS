@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Srijee’s Daily Growth Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+/* Body Styling */
+body {
+    background-color: #030000;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+}
+
+/* Main Container Card */
+.container {
+    max-width: 700px;
+    width: 200%;
+    background-color: #111;
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(23, 24, 23, 0.3);
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    color: #1cf40d;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #45cc66;
+}
+
+/* Paragraph */
+p {
+    font-size: 18px;
+}
+
+/* List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 8px 0;
+    transition: 0.3s;
+}
+
+li:hover {
+    color: #1cf40d;
+    transform: scale(1.05);
+}
+
+/* Table */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    table-layout: inherit;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #1cf40d;
+}
+
+th {
+    background-color: #1a1a1a;
+}
+
+/* Select dropdown */
+select {
+    background-color: black;
+    color: white;
+    border: 1px solid #1cf40d;
+    padding: 3px;
+}
+
+/* Image */
+img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Textarea */
+textarea {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #1cf40d;
+    background-color: #000;
+    color: rgb(23, 231, 16);
+}
+
+/* Button */
+button {
+    background-color: #1f491c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1cf40d;
+    color: black;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+a {
+    color: #1cf40d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>Srijee’s Daily Growth Tracker</h1>
+        <p><em>“Don’t wait to feel motivated. Build the habit and let motivation catch up.”</em></p>
+        <hr>
+    </header>
+
+    <section>
+        <h2>Today’s Routine</h2>
+        <ul>
+            <li>Wake up at 7:00 AM</li>
+            <li>Drink a glass of water</li>
+            <li>Read 5 pages</li>
+            <li>Note down expenses</li>
+            <li>Learn something new</li>
+            <li>Practice coding for at least 2 hours</li>
+            <li>Maintain the GitHub streak</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Weekly Progress</h2>
+
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Wake Up</th>
+                <th>Water</th>
+                <th>Reading</th>
+                <th>Expenses</th>
+                <th>Learning</th>
+                <th>Coding</th>
+                <th>GitHub</th>
+            </tr>
+
+            <tr>
+                <td>Monday</td>
+                <td><select><option>✅</option><option>❌</option></select></td>
+                <td><select><option>✅</option><option>❌</option></select></td>
+                <td><select><option>✅</option><option>❌</option></select></td>
+                <td><select><option>✅</option><option>❌</option></select></td>
+                <td><select><option>✅</option><option>❌</option></select></td>
+                <td><select><option>✅</option><option>❌</option></select></td>
+                <td><select><option>✅</option><option>❌</option></select></td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <img src="motivation.jpg" alt="Motivational Image">
+    </section>
+
+    <section>
+        <h2>Reflection</h2>
+        <p>How did you feel today? What went well? What could improve?</p>
+
+        <form>
+            <textarea rows="5" placeholder="Write your reflection here..."></textarea>
+            <br>
+            <button type="submit">Submit Reflection</button>
+        </form>
+    </section>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 Srijeeth KS. All rights reserved.</p>
+        <p>Contact: 
+            <a href="mailto:srijeethkssrijeeth@gmail.com">
+                srijeethkssrijeeth@gmail.com
+            </a>
+        </p>
+    </footer>
+
+</div>
+
+</body>
+</html>
